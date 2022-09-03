@@ -1,0 +1,100 @@
+.main{
+    width: 535px;
+    height: 300px;
+    font-family: 'BMDOHYEON';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 85px;
+    color: white;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nMain i{
+    font-size: 100px;
+    margin-right: 20px;
+    margin-top: 85px;
+    position: relative;
+    top: 20px;
+}
+.origin{
+    position: relative;
+    top: -20px;
+    margin-top: 40px;
+}
+.fifth{
+    position: absolute;
+    top: 520px;
+    font-size: 20px;
+    left: 1007px;
+}
+.second{
+    position: absolute;
+    top: 575px;
+    font-size: 26px;
+    left: 1010px;
+}
+.second, .third{
+    color: white;
+}
+.Smain .origin{
+    position: relative;
+    top: 35px;
+}
+.sixth{
+    position: absolute;
+    font-size: 20px;
+    top: 520px;
+    left: 1190px;
+}
+.forth{
+    position: absolute;
+    font-size: 20px;
+    top: 550px;
+    left: 1190px;
+}
+#nana{
+    margin-right: 3px;
+}
+.third{
+    position: absolute;
+    font-size: 20px;
+    top: 550px;
+    left: 1010px;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: 'yleeMortalHeartImmortalMemory';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/yleeMortalHeartImmortalMemory.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.top{
+    position: absolute;
+    top: 500px;
+    background-color: #43966b;
+    width: 485px;
+    height: 150px;
+    z-index: -1;
+}
+.bottom{
+    position: absolute;
+    background-color: #2e6cb1;
+    width: 485px;
+    height: 300px;
+    z-index: -5;
+}
