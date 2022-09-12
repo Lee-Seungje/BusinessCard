@@ -27,6 +27,12 @@ body{
     top: -20px;
     margin-top: 40px;
 }
+.seventh{
+    position: absolute;
+    top: 490px;
+    font-size: 20px;
+    left: 1009px;
+}
 .fifth{
     position: absolute;
     top: 520px;
